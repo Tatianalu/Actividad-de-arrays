@@ -62,3 +62,30 @@ else{
     console.log("No hay mas variables dentro de otra variable");
     
 }
+
+// Actividad Tres -- Ciclos - random hasta 50 
+
+function getRandom() {
+    return Math.floor(Math.random() * 100);
+}
+var randomNumber = getRandom();
+var cuenta = 0;
+var cuentas = 0;
+var cuentass = 0;
+// con For
+for (let i; randomNumber != 50 ; i++ ) {
+        var randomNumber = getRandom();
+        cuenta++
+    }   
+    
+    console.log(" Con For Se ejecuto el ciclo",cuenta,"veces que sea igual a:", randomNumber);
+
+// con do - while
+do{
+    var randomNumber = getRandom();
+    cuentass ++;
+    
+}
+while(randomNumber != 50);
+
+console.log("Con Do Se ejecuto el ciclo",cuentass,"veces que sea igual a:", randomNumber);
