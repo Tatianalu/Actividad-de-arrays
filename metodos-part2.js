@@ -17,7 +17,7 @@ if (anicasa(animal,"leon") == 1){
 var numeros = [1,2,3,4,5,6,7,8,9,10];
 var tablamul2 = numeros.map(multiplicar)
 
-function multiplicar(num){
+function multiplicar(num){    
     return num * 2;
 }
 document.write("</br></br>Tabla del 2 </br>");
